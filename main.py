@@ -41,7 +41,7 @@ class CafeForm(FlaskForm):
 
 
 
-#e.g. You could use emojis ☕️/💪/✘/🔌
+
 # make all fields required except submit
 # use a validator to check that the URL field has a URL entered.
 # ---------------------------------------------------------------------------
