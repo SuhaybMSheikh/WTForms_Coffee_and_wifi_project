@@ -38,7 +38,7 @@ class CafeForm(FlaskForm):
         if not field.data.startswith("https://") and "." not in field.data:
             raise ValidationError("Invalid URL")
 
-# Exercise:
+
 # add: Location URL, open time, closing time, coffee rating, wifi rating, power outlet rating fields
 # make coffee/wifi/power a select element with choice of 0 to 5.
 #e.g. You could use emojis ☕️/💪/✘/🔌
